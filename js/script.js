@@ -198,7 +198,7 @@ function tagClickHandler(event){
   /* execute function "generateTitleLinks" with article selector as argument */
   generateTitleLinks('[data-tags~="' + tag + '"]');
 }
-tagClickHandler();
+
 
 function addClickListenersToTags(){
   /* find all links to tags */
@@ -295,7 +295,7 @@ function authorClickHandler(event){
   /* execute function "generateTitleLinks" with article selector as argument */
   generateTitleLinks('[data-author ="' + author + '"]');
 }
-authorClickHandler();
+
 
 function addClickListenersToAuthors(){
   /* find all links to authors */
